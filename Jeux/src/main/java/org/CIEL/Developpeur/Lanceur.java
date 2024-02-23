@@ -14,7 +14,7 @@ public class Lanceur {
     public static void main(String[] args){
         System.out.println(Version.getVersion());
         fenetres = new GestionnaireDeFenetres(Constantes.TITRE, 1920, 1080, false);
-        System.out.println("Gestionnaire de fenetres défini sur 1920x1080 144fps plein écran défini sur false");
+        System.out.println("Gestionnaire de fenetres défini sur 1920x1080 60fps plein écran défini sur false");
         jeu = new TestJeu();
         System.out.println("TestJeu Chargé !");
         moteur = new GestionnaireDuMoteur();

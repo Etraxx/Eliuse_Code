@@ -7,7 +7,7 @@ import org.lwjgl.glfw.GLFWErrorCallback;
 
 public class GestionnaireDuMoteur {
     public static final long nanosecondes = 1000000000L;
-    public static final float tauxImage = 1000;
+    public static final float tauxImage = 60;
 
     private static int fps;
     private static float tempsDeTrame = 1.0f / tauxImage;
